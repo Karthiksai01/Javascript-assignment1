@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Student Registration System</h1>
+        </header>
+        <section>
+            <div class="container">
+                <div class="form-section">
+                    <form id="student-form" autocomplete="off" onsubmit="onformSubmit(event)">
+                        <label for="name">Student Name :</label>
+                        <input type="text" id="name" placeholder="Enter student name" required>
+        
+                        <label for="id">Student Id :</label>
+                        <input type="number" id="id" placeholder="Enter student ID" required>
+        
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" placeholder="@email.com" required>
+        
+                        <label for="phone no">Phone No. :</label>
+                        <input type="number" id="phoneno" placeholder="Enter phone number" required>
+        
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+        
+                <div class="table-section">
+                    <table id="student-list">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Id</th>
+                                <th>Email</th>
+                                <th>Phone No.</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Dynamic content will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

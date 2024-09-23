@@ -19,11 +19,12 @@ Fully responsive design with enhanced visual appeal using CSS.
 Project Structure
 bash
 Copy code
-/project-directory
-│
-├── index.html  # Main HTML file containing the form and display table
-├── styles.css  # CSS file for styling the form, table, and page layout
-└── script.js   # JavaScript file containing the logic for handling the form, validation, and local storage
+
+/project-directory:
+
+index.html  # Main HTML file containing the form and display table
+styles.css  # CSS file for styling the form, table, and page layout
+script.js   # JavaScript file containing the logic for handling the form, validation, and local storage
 
 Files:
 index.html: Contains the basic structure of the Student Registration System with the form and display table.
